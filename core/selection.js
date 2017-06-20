@@ -1402,7 +1402,7 @@
 		 *
 		 *		var selection = editor.getSelection().getNative();
 		 *
-		 * @returns {Object} The native browser selection object.
+		 * @returns {Object} The native browser selection object or null if this is a fake selection.
 		 */
 		getNative: function() {
 			if ( this._.cache.nativeSel !== undefined )
